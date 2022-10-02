@@ -7,7 +7,7 @@ public class ViewMove : MonoBehaviour
     bool clickCheck;
     public GameObject room;
     public Camera camera;
-    ButtonAtction buttonAction;
+    ButtonAction buttonAction;
     public GameObject gameManager;
     
 

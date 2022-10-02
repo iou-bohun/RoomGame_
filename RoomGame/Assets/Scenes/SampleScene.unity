@@ -269,13 +269,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae789741101ccb458561323ff8ec14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickCheck: 0
-  button: {fileID: 0}
   backGround:
-  - {fileID: 477320127}
   - {fileID: 1589045253}
   - {fileID: 1728873052}
   - {fileID: 2140906455}
+  - {fileID: 477320127}
   camera: {fileID: 519420031}
   scene: 0
   gameManager: {fileID: 615590427}
@@ -920,13 +918,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae789741101ccb458561323ff8ec14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickCheck: 0
-  button: {fileID: 0}
   backGround:
-  - {fileID: 477320127}
   - {fileID: 1589045253}
   - {fileID: 1728873052}
   - {fileID: 2140906455}
+  - {fileID: 477320127}
   camera: {fileID: 519420031}
   scene: 0
   gameManager: {fileID: 615590427}
