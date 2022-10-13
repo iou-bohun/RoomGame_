@@ -16,6 +16,6 @@ public class GetItem : MonoBehaviour
         Debug.Log(item.itemName);
         var inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
         inventory.AddItem(item);
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 }
