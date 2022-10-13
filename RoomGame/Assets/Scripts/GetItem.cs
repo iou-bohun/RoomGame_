@@ -5,12 +5,17 @@ using UnityEngine;
 public class GetItem : MonoBehaviour
 {
     public Item item;
-    public Inventory inventory;
+
+    private void OnMouseUpAsButton()
+    {
+        getItem();
+    }
 
     public void getItem()
     {
         Debug.Log(item.itemName);
-        inventory.AddItem(this.item);
-        Destroy(GameObject.Find(this.item.itemName));
+        var inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
+        inventory.AddItem(item);
+        Destroy(this);
     }
 }
